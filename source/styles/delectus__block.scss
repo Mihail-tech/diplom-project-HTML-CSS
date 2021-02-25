@@ -1,0 +1,29 @@
+.delectus__item{
+    text-align: center;
+}
+.delectus__item b {
+    font-family: $primaryFontExtraBold;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333333;
+}
+.delectus__item p {
+    font-family: $primaryFontExtraBold;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #333333;
+}
+.delectus-block {
+    &__item {
+        width: 370px;
+        height: 225px;
+        background: #FFFFFF;
+        box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    }
+    &__content {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    
+}

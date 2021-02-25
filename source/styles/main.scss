@@ -1,0 +1,29 @@
+@import './fonts.scss';
+@import './constants.scss';
+@import './mixins.scss';
+@import './home-section.scss';
+@import './navbar.scss';
+@import './delectus__block.scss';
+
+
+
+.home-section {
+  background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+  height: 100vh;
+}
+.btn.btn-primary-yellow {
+  font-family: $primaryFontMedium;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background: #FFC300;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 100px;
+  padding: 14px 36px;
+}
+.nav-link{
+  color: $white;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+}

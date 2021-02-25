@@ -1,0 +1,27 @@
+.navbar {
+    @include flex-row;
+    background: #5A27A4;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    z-index: 2;
+    
+}
+.navbar {
+    &-logo{
+        padding: 16px 275px 16px 135px;
+    }
+}
+    
+
+.navbar{
+    .nav {
+        display: flex;
+        flex-direction: row;
+        color: white;
+    }
+}
+.navbar{
+    &-search{
+        justify-content: space-between;
+    }
+}

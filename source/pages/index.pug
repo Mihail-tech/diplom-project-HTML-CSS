@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="./styles/main.css", rel="stylesheet")
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl", crossorigin="anonymous")
+    title Document
+  body
+    section.home-section 
+      include ./navbar.pug
+      .container
+        .home-section__item
+          .home-section__title
+            b Sint et 
+            b molestiae 
+            b recusandae 
+          .home-section__text 
+            p Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+          button.btn.btn-primary-yellow(type="button") Read more 
+    section.delectus 
+      .container 
+        .delectus__item
+          b Sapiente delectus
+          p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. 
+        include ./delectus__block.pug 
+
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js", integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0", crossorigin="anonymous")
