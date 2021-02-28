@@ -4,6 +4,15 @@
 @import './home-section.scss';
 @import './navbar.scss';
 @import './delectus__block.scss';
+@import './reic.scss';
+@import './aspe.scss';
+@import './totam.scss';
+@import './ipsa.scss';
+@import './verit.scss';
+@import './poris.scss';
+@import './nisi.scss';
+@import './repud.scss';
+@import './footer.scss';
 
 
 
@@ -21,9 +30,42 @@
   border-radius: 100px;
   padding: 14px 36px;
 }
+.btn.btn-primary-purple {
+  font-family: $primaryFontMedium;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  background: #C86DD7;;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 100px;
+  padding: 14px 36px;
+}
+.btn.btn-primary-white {
+  font-family: $primaryFontMedium;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C86DD7;
+  background: #FFFFFF;;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 100px;
+  padding: 14px 36px;
+}
+.btn.btn-primary-pink {
+  font-family: $primaryFontMedium;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C86DD7;
+  background: $pink;;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 100px;
+  padding: 14px 36px;
+}
 .nav-link{
   color: $white;
   font-size: 16px;
   line-height: 24px;
   text-align: right;
 }
+
+
+

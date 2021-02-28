@@ -1,0 +1,87 @@
+.verit {
+    background-color: $pink;
+    &-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 63px;
+        &-item {
+            font-size: 56px;
+            line-height: 64px;
+        }
+        &-paragraf {
+            font-size: 16px;
+            line-height: 24px;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            width: 370px;
+        }
+        & button {
+            cursor: pointer;
+        }
+    }
+    &-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 64px;
+        padding-bottom: 152px;
+        cursor: pointer;
+        &-rose {
+            background-image: url(../img/rose.png);
+            width: 570px;
+            height: 464px;
+            &-text1 {
+                color: $white;
+                padding: 62% 0 0 5%;
+                & b {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                & p {
+                    font-size: 12px;
+                    line-height: 24px;
+                    text-align: start;
+                }
+            }
+        }
+        &-glass {
+           background-image: url(../img/glass.png); 
+           width: 270px;
+           height: 464px;
+           margin: 0 30px 0;
+           &-text2 {
+               color: $white;
+               padding: 130% 0 0% 5%;
+               & b {
+                font-size: 24px;
+                line-height: 32px;
+               }
+               & p {
+                font-size: 12px;
+                line-height: 24px;
+                text-align: start;
+               }
+           }
+        }
+        &-pen {
+            background-image: url(../img/pen.png);
+            width: 270px;
+            height: 464px;
+            &-text3 {
+                color: $white;
+                padding: 130% 0 0% 5%;
+                & b {
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                & p {
+                    font-size: 12px;
+                    line-height: 24px;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}

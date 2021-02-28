@@ -1,29 +1,53 @@
-.delectus__item{
-    text-align: center;
+.delectus__item {
+        text-align: center;
+        padding-top: 55px;
 }
+/*.delectus__item,
+p {
+    
+}*/
+
+
+
+
+.delectus-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+
+
+
 .delectus__item b {
     font-family: $primaryFontExtraBold;
-        font-size: 56px;
-        line-height: 64px;
-        color: #333333;
+    font-size: 56px;
+    line-height: 64px;
+    color: #333333;
 }
 .delectus__item p {
     font-family: $primaryFontExtraBold;
     font-size: 16px;
     line-height: 24px;  
     color: #333333;
+    margin: 3% 20%;
+    text-align: center;
+    
 }
 .delectus-block {
     &__item {
-        width: 370px;
+        font-family: $primaryFontExtraBold;
+        width: 400px;
         height: 225px;
         background: #FFFFFF;
         box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+        margin: 30px 15px 15px 15px;
     }
     &__content {
+        font-family: $primaryFontMedium;
         flex-direction: column;
         text-align: center;
-
+        padding: 40px;
     }
-    
 }

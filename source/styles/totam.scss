@@ -1,0 +1,78 @@
+.totam {
+    background-color: $pink;
+}
+.header{
+    font-family: $primaryFontExtraBold;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    padding-top: 55px;
+}
+.title p {
+    font-family: $primaryFontBold;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    
+
+    
+}
+.three-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 0 0;
+    padding-bottom: 112px;
+}
+.first-card,
+.third-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    width: 370px;
+}
+.second-card {
+    width: 370px;
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.101959);
+    border-radius: 3px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.totam .three-card .item h2 {
+    font-family: $primaryFontExtraBold;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: 500;
+}
+.totam .three-card .item p {
+    font-family: $primaryFontExtraBold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 53px;
+}
+.totam .three-card .paragraf ul {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    list-style-type: none;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding: 26px 0 42px 0;
+}
+
+.totam .three-card .btn.btn-primary-white {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.totam .three-card .btn.btn-primary-yellow {
+    margin-bottom: 48px;
+}

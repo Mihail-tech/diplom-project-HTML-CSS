@@ -1,0 +1,61 @@
+.poris {
+    padding-top: 145px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: row;
+    &__foto {
+        position: relative;
+        background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+        border-radius: 3px;
+        width: 570px;
+        height: 512px;
+            & img {
+                position: absolute;
+                top: -5%;
+                left: 5%;
+                flex: 1;
+            }
+    }
+    &__content {
+        padding-left: 140px;
+        flex: 1;
+        &__name{
+            font-family: $primaryFontExtraBold;
+            font-size: 56px;
+            line-height: 64px;
+            width: 400px;
+            padding-bottom: 22px;
+        }
+        &__expl{
+            font-family: $primaryFontBold;
+            font-size: 16px;
+            line-height: 24px;
+            width: 470px;
+        }
+        &__paragraf {
+            font-family: $primaryFontMedium;
+            font-size: 16px;
+            line-height: 24px;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            width: 470px;
+        }
+        &__input{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            &.btn.btn-primary-purple{
+                flex: 3;
+            }
+            & p {
+                font-size: 12px;
+                line-height: 24px;
+                text-align: start;
+            }
+            &button{
+                flex: 1;
+            }
+
+        }
+    }
+}

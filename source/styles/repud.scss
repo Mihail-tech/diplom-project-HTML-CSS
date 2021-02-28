@@ -1,0 +1,77 @@
+.repud {
+    padding-top: 100px;
+    padding-bottom: 112px;
+    display: flex;
+    flex-direction: row;
+    &-content {
+        flex: 1;
+    }
+    &-forms {
+        flex: 1;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+        border-radius: 3px;
+    }
+}
+.repud .repud-content .repud-title {
+    font-size: 56px;
+    line-height: 64px;
+}
+.repud .repud-content .repud-paragraf {
+    font-size: 16px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: start;
+    width: 470px;
+    padding: 40px 0 23px 0;
+}
+.repud .repud-forms .repud-block{
+    margin: 32px;
+}
+.repud .repud-forms .repud-block .repud-title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+}
+.repud .repud-forms .repud-block .repud-name {
+    text-align: start;
+    padding: 30px 0 20px 0;
+}
+.repud-name input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.repud .repud-forms .repud-block .repud-name .repud-email .repud-message b {
+    font-size: 12px;
+    line-height: 15px;
+}
+.repud .repud-forms .repud-block .repud-email {
+    text-align: start;
+    padding-bottom: 20px;
+}
+.repud-email input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.repud .repud-forms .repud-block .repud-message {
+    text-align: start;
+    padding-bottom: 32px;
+}
+.repud-message input {
+    width: 100%;
+    height: 112px;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.repud .repud-forms .repud-block .repud-.btn.btn-primary-purple {
+    width: 100%;
+}

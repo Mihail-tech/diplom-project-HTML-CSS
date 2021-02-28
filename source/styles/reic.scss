@@ -1,0 +1,72 @@
+.reic {
+    padding-top: 145px;
+    padding-bottom: 110px;
+    background-color: $pink;
+    display: flex;
+    justify-content: space-around;
+    &__foto {
+        position: relative;
+        background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+        border-radius: 3px;
+        width: 570px;
+        height: 512px;
+            & img {
+                position: absolute;
+                top: -5%;
+                left: 5%;
+            }
+    }
+}
+
+.reic{
+    &__content {
+        width: 400px;
+        padding-left: 80px;
+        &__name{
+            font-family: $primaryFontExtraBold;
+            font-size: 56px;
+            line-height: 64px;
+        }
+        &__expl{
+            font-family: $primaryFontBold;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__paragraf {
+            font-family: $primaryFontMedium;
+            font-size: 16px;
+            line-height: 24px;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+        &__number{
+            display: flex;
+            justify-content: space-between;
+            &__number-42{
+                flex-direction: column;
+                & b{
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+                & p {
+                    font-family: $primaryFontExtraBold;
+                    font-size: 12px;
+                    line-height: 24px;
+                }
+            }
+            &__number-73{
+                flex-direction: column;
+                & b{
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+                & p {
+                    font-family: $primaryFontExtraBold;
+                    font-size: 12px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+    
