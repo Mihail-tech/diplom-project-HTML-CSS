@@ -1,27 +1,34 @@
 .navbar {
-    @include flex-row;
+    display: flex;
+    flex-direction: row;
     background: #5A27A4;
     mix-blend-mode: normal;
     opacity: 0.8;
-    z-index: 2;
-    
-}
-.navbar {
+    z-index: 3;
     &-logo{
-        padding: 16px 275px 16px 135px;
+        padding: 16px 0 16px 135px;
     }
-}
-    
-
-.navbar{
-    .nav {
+    &-search{
         display: flex;
         flex-direction: row;
-        color: white;
+        flex-wrap: wrap;
+        cursor: pointer;
+        &-lupa{  
+            flex-wrap: wrap;
+            margin-right: 8px;          
+        }
     }
 }
-.navbar{
-    &-search{
+.navbar{ 
+    &-nav{
+        flex-direction: row !important;
+        display: flex;
         justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+        cursor: pointer;
+        a {
+            padding: 0 30px;
+        }
     }
 }

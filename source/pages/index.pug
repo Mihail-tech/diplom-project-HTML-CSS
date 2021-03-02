@@ -10,15 +10,10 @@ html(lang="en")
   body
     section.home-section 
       include ./navbar.pug
+      .home-section-phone 
+        img(src="../img/phones.png", alt="")
       .container
-        .home-section__item
-          .home-section__title
-            b Sint et 
-            b molestiae 
-            b recusandae 
-          .home-section__text 
-            p Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
-          button.btn.btn-primary-yellow(type="button") Read more 
+        include ./content.pug
     section.delectus 
       .container 
         .delectus__item

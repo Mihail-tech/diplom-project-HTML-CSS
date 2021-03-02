@@ -13,16 +13,17 @@
             font-family: $primaryFontBold;
             font-size: 16px;
             line-height: 24px;
-            width: 570px;
+            width: 70%;
+            padding-top: 23px;
         }
         &__block {
             padding-top: 54px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            width: 270px;
             cursor: pointer;
             &__eiu {
+                width: 45%;
                 flex-direction: column;
                 & b {
                     font-family: $primaryFontExtraBold;
@@ -38,6 +39,7 @@
                 }
             }
             &__temp {
+                width: 45%;
                 flex-direction: column;
                 & b {
                     font-family: $primaryFontExtraBold;
@@ -53,7 +55,9 @@
                 }
             }
             &__cons {
+                width: 45%;
                 flex-direction: column;
+                padding-top: 32px;
                 & b {
                     font-family: $primaryFontExtraBold;
                     font-size: 24px;
@@ -68,7 +72,9 @@
                 }
             }
             &__dolo {
+                width: 45%;
                 flex-direction: column;
+                padding-top: 32px;
                 & b {
                     font-family: $primaryFontExtraBold;
                     font-size: 24px;

@@ -15,7 +15,7 @@
             line-height: 24px;
             mix-blend-mode: normal;
             opacity: 0.5;
-            width: 370px;
+            width: 30%;
         }
         & button {
             cursor: pointer;
@@ -30,7 +30,7 @@
         cursor: pointer;
         &-rose {
             background-image: url(../img/rose.png);
-            width: 570px;
+            width: 44%;
             height: 464px;
             &-text1 {
                 color: $white;
@@ -48,9 +48,8 @@
         }
         &-glass {
            background-image: url(../img/glass.png); 
-           width: 270px;
+           width: 20%;
            height: 464px;
-           margin: 0 30px 0;
            &-text2 {
                color: $white;
                padding: 130% 0 0% 5%;
@@ -67,7 +66,7 @@
         }
         &-pen {
             background-image: url(../img/pen.png);
-            width: 270px;
+            width: 20%;
             height: 464px;
             &-text3 {
                 color: $white;

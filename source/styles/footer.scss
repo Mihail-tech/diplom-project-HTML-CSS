@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 62px 0 60px 0;
+    padding: 62px 0 42px 0;
     &-cons {
         width: 240px;
         height: 90px;
@@ -16,6 +16,7 @@
             line-height: 24px;
             mix-blend-mode: normal;
             opacity: 0.5;
+            text-align: start;
         }
 
     }
