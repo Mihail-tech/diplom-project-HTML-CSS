@@ -11,6 +11,9 @@
 }
 .nisi .card-group .card {
     margin: 0 15px;
+    @media(max-width: $lg) {
+        margin: 16px 0;
+    }
 }
 .nisi .card-body .card-title {
     font-size: 12px;

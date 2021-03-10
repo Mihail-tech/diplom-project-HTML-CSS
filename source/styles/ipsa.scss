@@ -18,15 +18,25 @@
             flex: 1;
             margin-right: 15px;
             margin-bottom: 48px;
-            background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+            
             box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.101959);
             border-radius: 3px;
+            :hover {
+                background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+            }
+            @media (max-width: $xl) {
+                display: none;
+            }
             &__content-1{
-                color: white;
-                padding: 48px 30px 60px ;
-                & img {
-                    margin-left: 30%;
+                color: black;
+                padding: 48px 30px 60px;
+                text-align: center;
+                @media (max-width: $xl) {
+                    text-align: center;
                 }
+                /*img {
+                    /*margin-left: 30%;
+                }*/
                & p{
                 font-size: 16px;
                 line-height: 24px;
@@ -48,11 +58,18 @@
             background: #FFFFFF;
             box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
             border-radius: 3px;
+            :hover {
+                background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+            }
             &__content-2{
-                padding: 48px 30px 60px ;
-                & img {
-                    margin-left: 30%;
+                padding: 48px 30px 60px;
+                text-align: center;
+                @media (max-width: $xl) {
+                    text-align: center;
                 }
+                /*& img {
+                    margin-left: 30%;
+                }*/
                 & p{
                  font-size: 16px;
                  line-height: 24px;
@@ -64,6 +81,9 @@
                  font-size: 56px;
                  line-height: 64px;
                  text-align: center;
+                 @media (max-width: $xl) {
+                    text-align: center;
+                }
                 }
             }
         }
@@ -76,6 +96,9 @@
         justify-content: center;
         margin-bottom: 63px;
         cursor: pointer;
+        :hover {
+            background-color: $pink;
+        }
         &__left{
             border: 1px solid #C86DD7;
             box-sizing: border-box;

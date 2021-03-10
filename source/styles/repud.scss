@@ -3,6 +3,11 @@
     padding-bottom: 112px;
     display: flex;
     flex-direction: row;
+    @media (max-width: $xl) {
+        display: flex;
+        flex-direction: column;
+        padding: 54px 0 80px;
+    }
     &-content {
         flex: 1;
     }
@@ -12,11 +17,18 @@
         background: #FFFFFF;
         box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
         border-radius: 3px;
+        @media (max-width: $xl) {
+            margin-top: 64px;
+        }
     }
 }
 .repud .repud-content .repud-title {
     font-size: 56px;
     line-height: 64px;
+    @media (max-width: $xl) {
+        font-size: 40px;
+        line-height: 48px;
+    }
 }
 .repud .repud-content .repud-paragraf {
     font-size: 16px;
@@ -24,7 +36,7 @@
     mix-blend-mode: normal;
     opacity: 0.5;
     text-align: start;
-    width: 470px;
+    width: 90%;
     padding: 40px 0 23px 0;
 }
 .repud .repud-forms .repud-block{
@@ -45,6 +57,10 @@
     border: 1px solid #DADADA;
     box-sizing: border-box;
     border-radius: 3px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 13px;
 }
 .repud .repud-forms .repud-block .repud-name .repud-email .repud-message b {
     font-size: 12px;
@@ -60,6 +76,10 @@
     border: 1px solid #DADADA;
     box-sizing: border-box;
     border-radius: 3px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 13px;
 }
 .repud .repud-forms .repud-block .repud-message {
     text-align: start;
@@ -71,7 +91,14 @@
     border: 1px solid #DADADA;
     box-sizing: border-box;
     border-radius: 3px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 13px;
 }
 .repud .repud-forms .repud-block .repud-.btn.btn-primary-purple {
     width: 100%;
+}
+.repud .repud-content .repud-img .twitter {
+    margin: 0 8px;
 }

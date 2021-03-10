@@ -7,6 +7,12 @@
     z-index: 3;
     &-logo{
         padding: 16px 0 16px 135px;
+        @media (max-width: $md) {
+            padding-left: 50px;
+        }
+        @media (max-width: $sm) {
+            padding-left: 15px;
+        }
     }
     &-search{
         display: flex;
@@ -15,7 +21,16 @@
         cursor: pointer;
         &-lupa{  
             flex-wrap: wrap;
-            margin-right: 8px;          
+            margin-right: 45px;          
+        }
+        &-3line {
+            margin-right: 100px;
+            @media (max-width: $md) {
+                margin-right: 50px;
+            }
+            @media (max-width: $sm) {
+                margin-right: 15px;
+            }
         }
     }
 }
@@ -29,6 +44,9 @@
         cursor: pointer;
         a {
             padding: 0 30px;
+            @media (max-width: $xl) {
+                display: none;
+            }
         }
     }
 }
